@@ -2,12 +2,7 @@ package main
 
 import "fmt"
 
-func example() {
+func main() {
 	fmt.Println("Benar = ", true)
 	fmt.Println("Salah = ", false)
-}
-
-func main() {
-	// Panggil fungsi example di dalam fungsi main
-	example()
 }
